@@ -1,7 +1,8 @@
 1. Follow tutorial to make basic working clock [complete]
 2. Add to HTML to also display date and timezone (possiblly also location?)
 3. add to CSS to add to looks of clock
-    - background colour
+    - background colour - gradient?
     - clock face colour 
     - text colour
+    
     
