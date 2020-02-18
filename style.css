@@ -1,11 +1,16 @@
+body {
+    background-image: linear-gradient(-90deg, #00BFFF, #1E90FF);
+}
 /* Layout */
+
+
 .main {
     display: flex;
     padding: 2em;
     height: 90vh;
     justify-content: center;
     align-items: middle;
-    background-image: linear-gradient(-90deg, #00BFFF, #1E90FF)
+    
 }
 
 .clockbox,
@@ -15,15 +20,26 @@
 #date {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    
-
-    
+    color: white;
+    font-weight: 500;
+}
+#digitalTime {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+#timeZone {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    font-weight: 500;
 }
 
 /* Clock styles */
 .circle {
     fill: none;
-    stroke:white;
+    stroke:black;
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
