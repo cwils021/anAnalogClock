@@ -5,48 +5,56 @@
     height: 90vh;
     justify-content: center;
     align-items: middle;
+    background-image: linear-gradient(-90deg, #00BFFF, #1E90FF)
 }
 
 .clockbox,
 #clock {
     width: 100%;
 }
+#date {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    
+
+    
+}
 
 /* Clock styles */
 .circle {
     fill: none;
-    stroke: #000;
+    stroke:white;
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
 
 .mid-circle {
-    fill: #000;
+    fill:white;
 }
 .hour-marks {
     fill: none;
-    stroke: #000;
+    stroke:white;
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
 
 .hour-arm {
     fill: none;
-    stroke: #000;
+    stroke: lightcyan;
     stroke-width: 17;
     stroke-miterlimit: 10;
 }
 
 .minute-arm {
     fill: none;
-    stroke: #000;
+    stroke: lightcyan;
     stroke-width: 11;
     stroke-miterlimit: 10;
 }
 
 .second-arm {
     fill: none;
-    stroke: #000;
+    stroke: crimson;
     stroke-width: 4;
     stroke-miterlimit: 10;
 }

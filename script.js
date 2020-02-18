@@ -1,8 +1,14 @@
-const HOURHAND = document.querySelector("#hour");
+const HOURHAND = document.querySelector("#hour"); 
 const MINUTEHAND = document.querySelector("#minute");
 const SECONDHAND = document.querySelector("#second");
+const OPTIONS = {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'};
+
 
 var date = new Date();
+
+
+console.log(date.toLocaleDateString('en-GB', OPTIONS));
+document.getElementById("date").innerHTML = date.toLocaleDateString('en-GB', OPTIONS);
 
 let hr = date.getHours();
 let min = date.getMinutes();
