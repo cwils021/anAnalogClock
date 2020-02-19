@@ -5,15 +5,11 @@ const OPTIONS = {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
 
 
 var date = new Date();  //create new date object
-var time = date.toLocaleTimeString('en-US'); //DELETE?
-console.log(time);  //DELETE?
-var timeZone = date.getTimezoneOffset();    //DELETE?
-console.log(Date.now());    //DELETE?
 
 console.log(date.toLocaleDateString('en-GB', OPTIONS)); //test datestirng options
+
 var dateStr = date.toString();
 var token = dateStr.split("(");
-console.log(token);
 
 document.getElementById("timeZone").innerHTML = "(" + token[1];
 
