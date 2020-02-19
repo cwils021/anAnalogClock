@@ -11,7 +11,11 @@ var timeZone = date.getTimezoneOffset();    //DELETE?
 console.log(Date.now());    //DELETE?
 
 console.log(date.toLocaleDateString('en-GB', OPTIONS)); //test datestirng options
+var dateStr = date.toString();
+var token = dateStr.split("(");
+console.log(token);
 
+document.getElementById("timeZone").innerHTML = "(" + token[1];
 
 let hr = date.getHours();   //get current hour at page load
 let min = date.getMinutes();    //get current min at page load
